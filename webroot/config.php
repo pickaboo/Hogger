@@ -51,6 +51,19 @@ $hogger['lang'] = 'sv';
 $hogger['title_append'] = ' | Hogger en webbtemplate';
 
 
+$hogger['header'] = <<<EOD
+<img class='sitelogo' src='img/hogger.png' alt='Hogger Logo'/>
+<span class='sitetitle'>Hogger webbtemplate</span>
+<span class='siteslogan'>Återanvändbara moduler för webbutveckling med PHP</span>
+EOD;
+ 
+ 
+$hogger['footer'] = <<<EOD
+<footer><span class='sitefooter'>Copyright (c) Andreas Hultman (andreas.hultman@me.com) | <a href='https://github.com'>Hogger på GitHub [ToDo]</a> | <a href='http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance'>Unicorn</a></span></footer>
+EOD;
+
+
+
 /**
  * Theme related settings.
  *
@@ -87,7 +100,9 @@ $hogger['navbar'] = array(
     'items' => array(
         'hem' => array('text' => 'Hem', 'url' => 'me.php', 'title' => 'Min presentation om mig själv'),
         'redovisning' => array('text' => 'Redovisning', 'url' => 'redovisning.php', 'title' => 'Redovisningar för kursmomenten'),
+        'tarning' => array('text' => 'Tärning', 'url' => 'Dice.php?action=0', 'title' => 'Spela Tärning'),
         'kallkod' => array('text' => 'Källkod', 'url' => 'source.php', 'title' => 'Se källkoden'),
+
     ),
     'callback_selected' => function($url) {
 if (basename($_SERVER['SCRIPT_FILENAME']) == $url) {

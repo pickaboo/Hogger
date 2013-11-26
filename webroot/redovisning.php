@@ -31,11 +31,21 @@ Andra delen var MYCKET. Långa stunder hade jag absolut ingen aning om vad jag g
 <br>Menyn klarade jag relativt enkelt. Tog bara lite tid innan jag förstod var jag skulle lägga in allt men det löste sig till sist. 
 Source blev en ny modul och det gick ganska smidigt att lägga in. 
 Jag gjorde inte GitHub-uppgiften nu för jag ville inte röra till det för mycket - men jag kommer att göra den senare. 
- 
-   
-   
-   
    </p>
+        
+<h3>kmom 2</h3>        
+<p>        
+Jag har tidigare kommit i kontakt med objektsorienterad programmering. 
+    Dels i Java och en del C++. 
+        Jag löste uppgiften Tärning genom att jag la själva spelet i en klass och två mindre klasser för den aktuella rundan och en för tärningskastet. 
+            Olika funktioner ändrar värden i $-sessions beroende på händelser skickas via länken.  
+Jag fick ihop något som fungerade utan några större problem.  
+    .  De främsta svårigheterna är att jag inte är så bekväm med syntaxen. 
+        Enkelt att fastna i mer triviala problem. Ibland tycker jag också att det svårt att veta vilken ”väg” som är den rätta – eller om det ens finns en mer rätt eller fel väg. 
+            Exempelvis, borde jag lagra alla värden i ett objekt som jag sparar till nästa omgång och då plockar ut värdena från detta objekt eller ska jag lagra värdena direkt i arrayen. Eller kanske ska jag skicka med värdena i länken. 
+                Den typen av val kan vara lite knepigt att komma fram till. Oophp-20 läste jag igenom och provade flera delar. 
+                Det flöt på utan större svårigheter. 
+   </p>             
 EOD;
  
 $hogger['footer'] = <<<EOD
